@@ -48,4 +48,6 @@ git remote add origin git@github.com:<username>/<reponame>
 ```
 За отправку изменений на удалённый репозиторий отвечает команда: ```git push
 ```
-
+Для первого коммита необходимо добавить параметры в команду: ```
+git push -u origin master
+```
